@@ -1,0 +1,5 @@
+#!/bin/bash
+# Example of a simple wrapper script to delete a file- and/or directory (including contents) without asking,
+# The purpose is to avoid the need to remember typing rm -rf as "delete" is more intuitive to users
+# Usage: start typing "del" in a terminal, and then hit tab to autocomplete. I.e.: deleteit /path/to/directory
+rm -rf $1
